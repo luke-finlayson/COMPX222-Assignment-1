@@ -1,0 +1,128 @@
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Inconsolata:wght@300&family=Xanh+Mono&display=swap');
+
+body {
+    font-family: 'Cutive Mono', monospace;
+    color: #06070E;
+    background-image: url(../../images/part1/typewriter-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/*Headers*/
+h1 {
+    font-size: 3em;
+}
+h2 {
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+img {
+    width: 10%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 20px;
+}
+
+.title-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card-section {
+    background-color: rgb(255, 254, 207);
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 10px 10px 0px black;
+}
+
+ul {
+    text-align: left;
+}
+
+.reference-container {
+    font-size: larger;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.text-section {
+    width: 40%;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 10px;
+}
+
+.left-table {
+    text-align: right;
+}
+
+.center-table {
+    text-align: center;
+}
+
+.right-container {
+    text-align: left;
+}
+
+td, tr, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    padding-top: 20px;
+}
+
+.theme-button-container {
+    background-color: darkgray;
+    margin-top: -80px;
+    padding-top: 79px;
+    padding-bottom: 10px;
+    box-shadow: inset 0px -13px 42px -24px rgba(0, 0, 0, 0.65);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}

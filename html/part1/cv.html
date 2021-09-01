@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link id="link" rel="stylesheet" href="../../css/part1/typewriter-theme.css">
+        <title>CV - Luke Finlayson</title>
+        <script>
+            function changeTheme(theme) {
+                // Get the link tag
+                var links = document.getElementById('link');
+
+                // Set the href attribute of the link tag to the button pressed
+                var css = "../../css/part1/" + theme
+                document.getElementById('link').setAttribute('href', css)
+            }
+        </script>
+    </head>
+    <body>
+        <div class="theme-button-container">
+            <p class="theme-button-caption">Use the buttons to switch between the various themes</p>
+
+            <button onclick="changeTheme('typewriter-theme.css')">
+                Typewriter
+            </button>
+            <button onclick="changeTheme('professional-theme.css')">
+                Professional
+            </button>
+            <button onclick="changeTheme('zany-theme.css')">
+                Zany
+            </button>
+        </div>
+        <!--Page Title-->
+        <div class="title-section">
+            <img src="../../images/part1/profile.jpg" alt="Yeah I don't have any selfies sorry">
+            <h1>Luke Finlayson</h1>
+        </div>
+
+        <div class="body-container">
+            <div class=container>
+                <div class="text-section">
+                    <h2>Objective</h2>
+                    <p>First Year <span>University of Waikato</span> Student looking for a part time job to cover living cots during study.</p>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card-section">
+                    <h3>Techinical Skills</h3>
+                    <ul>
+                        <li>Full NZ Driver's License</li>
+                        <li>Operating a Till</li>
+                        <li>Basic Programming Knowledge</li>
+                    </ul>
+                </div>
+                <div class="card-section">
+                    <h3>Personal Skills</h3>
+                    <ul>
+                        <li>Willingness to Learn</li>
+                        <li>Teamwork</li>
+                        <li>Self-Management</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="table-section">
+                    <h2>Education</h2>
+                    <!--Usaully wouldn't put every school here but I needed to fill a table so...-->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>School</th>
+                                <th>Timeframe</th>
+                                <th>Qualification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="left-table">St Paul's Collegiate</td>
+                                <td class="center-table">2017-2020</td>
+                                <td class="right-table">NCEA Level 3 (Excellence)</td>
+                            </tr>
+                            <tr>
+                                <td class="left-table">Mercury Bay Area School</td>
+                                <td class="center-table">2015-2016</td>
+                                <td class="right-table">N/A</td>
+                            </tr>
+                            <tr>
+                                <td class="left-table">ICS Addis Ababa</td>
+                                <td class="center-table">2012-2015</td>
+                                <td class="right-table">N/A</td>
+                            </tr>
+                            <tr>
+                                <td class="left-table">Highfield School</td>
+                                <td class="center-table">2007-2012</td>
+                                <td class="right-table">N/A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="text-section">
+                    <h2>Achievements</h2>
+                    <ul>
+                        <li>Univeristy of Waikato Computer Science Undergraduate Scholarship</li>
+                        <li>Craftsmanship School Award 2020</li>
+                        <li>Rock Climbing Captain for St Paul's Collegiate Rock Climbing Team 2020</li>
+                        <li>NCEA Level 1,2 & 3 endorsed with Merit</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="reference-container">
+                <h4><span>&#9873;</span> References Available upon request</h4>
+            </div>
+        </div>
+    </body>
+</html>

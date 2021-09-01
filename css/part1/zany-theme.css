@@ -1,0 +1,122 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Oswald&display=swap');
+
+body {
+    background-color: #191923;
+    color: #fdfffc;
+    font-family: 'Oswald';
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Bungee';
+    font-size: 50px;
+}
+
+h2, h3, h4, th {
+    font-family: 'Bungee';
+}
+
+th, td {
+    color: #191923;
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    padding: 25px;
+}
+
+table {
+    background-color: #fdfffc;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border-style: none;
+}
+
+.left-table {
+    text-align: right;
+}
+
+.center-table {
+    text-align: center;
+}
+
+.right-container {
+    text-align: left;
+}
+
+.table-section {
+    background-color: rgba(150, 150, 150, 0.2);
+    margin: 2%;
+    padding: 30px 4%;
+    border-radius: 15px;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+    margin: 0% 2%;
+    border-radius: 15px;
+    padding: 40px 6%;
+    justify-content: center;
+}
+
+img {
+    width: 10%;
+    border-radius: 10px;
+    margin-right: 3%;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.card-section {
+    width: 23%;
+    margin-right: 3%;
+}
+
+.text-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reference-container {
+    text-align: center;
+    padding: 80px;
+    font-size: 30px;
+}
+
+span {
+    color: #e94f37;
+}
+
+.theme-button-container {
+    background-color: darkgray;
+    margin-top: -80px;
+    padding-top: 79px;
+    padding-bottom: 10px;
+    box-shadow: inset 0px -13px 42px -24px rgba(0, 0, 0, 0.65);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}

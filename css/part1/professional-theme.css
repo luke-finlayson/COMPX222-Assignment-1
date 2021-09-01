@@ -1,0 +1,133 @@
+/*Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+body {
+    background-color: #f1eff0;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+p, li, th, td {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.title-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #006989;
+    color: white;
+    box-shadow: inset -2px -1px 20px -1px black;
+}
+
+img {
+    width: 10%;
+    border-left: 3px solid white;
+    padding-left: 10px;
+    margin-left: 5%;
+}
+
+.text-section {
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-items: center;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.card-section {
+    width: 20%;
+    background-color: #006989;
+    color: white;
+    padding: 20px;
+    margin-right: 5%;
+    box-shadow: inset -2px -1px 20px -1px black;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.table-section {
+    margin-left: 5%;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+.left-table {
+    text-align: right;
+}
+
+.center-table {
+    text-align: center;
+}
+
+.right-container {
+    text-align: left;
+}
+
+td, tr, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    padding-top: 20px;
+}
+
+.reference-container {
+    text-align: center;
+    padding: 80px;
+}
+
+span {
+    color: #784d59;
+    font-weight: bold;
+}
+
+.theme-button-container {
+    background-color: darkgray;
+    margin-top: -80px;
+    padding-top: 79px;
+    padding-bottom: 10px;
+    box-shadow: inset 0px -13px 42px -24px rgba(0, 0, 0, 0.65);
+    text-align: center;
+    color: white;
+}
+
+.theme-button-container p {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
